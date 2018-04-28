@@ -5,24 +5,25 @@
 
 This is my emacs configuration tree, continually used and tweaked
 since 2000, and it may be a good starting point for other Emacs
-users, especially those who are web developers. These days it's
+users, especially web developers. These days it's
 somewhat geared towards OS X, but it is known to also work on Linux
 and Windows.
 
 Emacs itself comes with support for many programming languages. This
-config adds improved defaults and extended support for the following:
+config adds improved defaults and extended support for the following, listed
+in the approximate order of how much I use them, from most to least:
 
+* Haskell / Elm
 * Ruby / Ruby on Rails
 * CSS / LESS / SASS / SCSS
-* HAML / Markdown / Textile / ERB
-* Clojure (with Cider and nRepl)
-* Javascript / Coffeescript
+* Javascript / Typescript / Coffeescript
+* HTML / HAML / Markdown / Textile / ERB
+* Rust
 * Python
-* PHP
-* Haskell
-* Elm
-* Erlang
+* Clojure (with Cider and nRepl)
 * Common Lisp (with Slime)
+* PHP
+* Erlang
 
 In particular, there's a nice config for *autocompletion* with
 [company](https://company-mode.github.io/), and
@@ -32,11 +33,11 @@ other languages.
 
 ## Supported Emacs versions
 
-The config should run on Emacs 24.1 or greater and is designed to
-degrade smoothly - see the Travis build - but note that Emacs 24 and
-above is required for an increasing number of key packages, including
-`magit`, `company` and `flycheck`, so to get full you should use the
-latest Emacs version available to you.
+The config should run on Emacs 24.3 or greater and is designed to
+degrade smoothly - see the Travis build - but note that Emacs 24.5 and
+above is required for an increasing number of key packages, so to get
+full functionality you should use the latest Emacs version available
+to you.
 
 Some Windows users might need to follow
 [these instructions](http://xn--9dbdkw.se/diary/how_to_enable_GnuTLS_for_Emacs_24_on_Windows/index.en.html)
